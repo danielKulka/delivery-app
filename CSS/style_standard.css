@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root{
+  --item-color: #373985;
+}
+
+*{
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  min-height: 100vh;
+}
+/* Estilizando o cabeçalho */
+.header{
+  width: 100%;
+  background-image: url('https://downtownmidland.com/wp-content/uploads/2020/07/Food_Header2-1920x488.jpg');
+  position: fixed;
+}
+
+.nav-bar .ul-menu{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  color: var(--item-color);
+}
+
+.ul-menu li a{
+  color: var(--item-color);
+}
+
+.ul-menu li{
+  list-style: none;
+  padding: 1rem;
+  font-size: 50px;  
+}
+
+.ul-menu li .li-location{
+  font-size: 20px;
+  padding-left: 0.3rem;
+}
+
+#location{
+  display: flex;
+  align-items: center;
+}
+/* Estilizando o rodapé */
+#footer{
+  background-color: #69DBCF;
+}
+
+#footer-card{
+  display: flex;
+  align-items: baseline;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.footer-item{
+  list-style: none;
+  text-align: center;
+  margin: 1rem;
+}
+
+.footer-item a{
+  text-decoration: none;
+}
+
+.footer-item a .bi{
+  font-size: 40px;
+  color: var(--item-color);
+}
