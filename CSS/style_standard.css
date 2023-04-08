@@ -38,11 +38,11 @@ body{
 .ul-menu li{
   list-style: none;
   padding: 1rem;
-  font-size: 50px;  
+  font-size: 3rem;  
 }
 
 .ul-menu li .li-location{
-  font-size: 20px;
+  font-size: 1rem;
   padding-left: 0.3rem;
 }
 
