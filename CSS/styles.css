@@ -1,0 +1,47 @@
+#main{
+  position: relative;
+  margin-top: 105px;
+}
+
+#main-head{
+  background-color: var(--bg-color);
+  padding: 2rem;
+}
+
+#title{
+  color: var(--item-color);
+  padding-bottom: 0.4rem;
+}
+
+.welcome{
+  color: rgb(43, 43, 43);
+}
+
+#input-home{
+  width: 85%;
+  display: flex;
+  margin: auto;
+  padding-top: .8rem;
+  align-items: center;
+}
+
+i.bi-search{
+  position: absolute;
+  color: var(--item-color);
+  padding-left: 7rem;
+  font-size: 20px;
+}
+
+#input-search{
+  width: 85%;
+  padding-left: 2.2rem;
+  margin: auto;
+  font-size: 20px;
+  border: 5px ridge var(--item-color);
+  outline-style: none;
+}
+
+#input-search:hover{
+  border: 5px ridge var(--bg-color);
+}
+

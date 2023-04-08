@@ -2,6 +2,7 @@
 
 :root{
   --item-color: #373985;
+  --bg-color: #69DBCF;
 }
 
 *{
@@ -18,6 +19,8 @@ body{
   width: 100%;
   background-image: url('https://downtownmidland.com/wp-content/uploads/2020/07/Food_Header2-1920x488.jpg');
   position: fixed;
+  top: 0;
+  z-index: 3;
 }
 
 .nav-bar .ul-menu{
@@ -49,7 +52,7 @@ body{
 }
 /* Estilizando o rodapé */
 #footer{
-  background-color: #69DBCF;
+  background-color: var(--bg-color);
 }
 
 #footer-card{
