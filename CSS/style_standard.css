@@ -27,7 +27,6 @@ body{
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  flex-wrap: wrap;
   color: var(--item-color);
 }
 
@@ -59,14 +58,13 @@ body{
   display: flex;
   align-items: baseline;
   justify-content: space-evenly;
-  flex-wrap: wrap;
 }
 
 .footer-item{
   list-style: none;
   text-align: center;
-  margin: 1rem;
-}
+  margin: 1rem; 
+} 
 
 .footer-item a{
   text-decoration: none;
@@ -75,4 +73,24 @@ body{
 .footer-item a .bi{
   font-size: 40px;
   color: var(--item-color);
+}
+
+/* Media query para telas menores */
+
+@media screen and (max-width:480px) {
+  body{
+    width: 100%;
+  }
+  .header{
+    display: flex;
+  }
+  
+  ul#footer-card{
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+  }
+  #footer-card li{
+    width: 100%;
+  }
 }

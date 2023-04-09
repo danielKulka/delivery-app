@@ -54,7 +54,6 @@ section#categorias{
 
 ul#ul-categorias{
   display: flex;
-  flex-wrap: wrap;
   width: 65%;
   justify-content: space-around;
   margin: auto;
@@ -162,4 +161,32 @@ section#rating .bi{
   font-size: 25px;
   color: grey;
   padding-left: 1rem;
+}
+
+/* media query para telas menores */
+
+@media screen and (max-width:480px) {
+  body{
+    width: 100%;
+  }
+  i.bi-search{
+    position: absolute;
+    padding-left: 1.3rem;
+  }
+  #ul-categorias{
+    flex-wrap: wrap;
+  }
+  #card-produtos{
+    flex-wrap: wrap;
+    margin: auto;
+  }
+  #card-produtos figure{
+    width: 100%;
+  }
+  div#ver-mais{
+    justify-content: center;
+  }
+  span#rating-text{
+    display: none;
+  }
 }
