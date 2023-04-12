@@ -1,0 +1,21 @@
+#main{
+  position: relative;
+  margin-top: 100px;
+}
+
+#branch{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--bg-color);
+  padding: 5rem;
+}
+
+#cube-title{
+  font-size: 3rem;
+  color: var(--item-color);
+}
+
+.cube-logo{
+  font-size: 4rem;
+}

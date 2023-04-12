@@ -1,6 +1,7 @@
 #main{
   position: relative;
   margin-top: 100px;
+  padding-bottom: 10rem;
 }
 /* Estilizando o section#main-head */
 #main-head{
@@ -31,7 +32,7 @@
 i.bi-search{
   position: absolute;
   color: var(--item-color);
-  padding-left: 7rem;
+  padding-left: 6%;
   font-size: 20px;
 }
 
@@ -54,6 +55,7 @@ section#categorias{
 
 ul#ul-categorias{
   display: flex;
+  flex-wrap: wrap;
   width: 65%;
   justify-content: space-around;
   margin: auto;
@@ -83,16 +85,18 @@ ul#ul-categorias{
 /* Estilizando a section#card-produtos */
 section#card-produtos{
   display: flex;
+  flex-wrap: wrap;
 }
 
 figure.produtos{
-  display: block;
-  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  margin: 2rem auto;
   box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.5);
   border-radius: 2rem;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
-  width: 25%;
+  width: 19%;
   align-content: center;
 }
 
@@ -163,11 +167,29 @@ section#rating .bi{
   padding-left: 1rem;
 }
 
+
+@media screen and (min-width:480px) and (max-width:1250px) {
+  #main{
+    padding-bottom: 15rem;
+  }
+  #card-produtos figure{
+    width: 35%;
+  }
+  figcaption.nome-do-produto{
+    font-size: 15px;
+    margin-top: .2rem;
+  }
+}
+
+
 /* media query para telas menores */
 
 @media screen and (max-width:480px) {
   body{
     width: 100%;
+  }
+  #main{
+    padding-bottom: 40rem;
   }
   i.bi-search{
     position: absolute;
