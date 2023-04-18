@@ -80,7 +80,7 @@ ul#ul-categorias{
   cursor: pointer;
   border: .2rem solid var(--item-color);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
-  transition: all .5s ease-in-out;
+  transition: all .2s ease-in-out;
 }
 /* Estilizando a section#card-produtos */
 section#card-produtos{
@@ -103,6 +103,12 @@ figure.produtos{
 figure.produtos:hover{
   box-shadow: none;
   background-color: var(--bg-color);
+  transition: all .2s ease-in-out;
+}
+
+figure.produtos:hover > figcaption.nome-do-produto{
+  color:whitesmoke;
+  transition: all .2s ease-in-out;
 }
 
 .produtos img{
