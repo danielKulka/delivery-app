@@ -1,4 +1,74 @@
 #main{
   position: relative;
   margin-top: 100px;
+  padding-bottom: 8rem;
+}
+
+#form-title{
+  background-color: var(--bg-color);
+  color: var(--item-color);
+  text-align: center;
+  padding: 5rem;
+}
+
+#login-form{
+  display: block;
+  margin: 50px auto;
+  background: var(--item-color);
+  opacity: 0.8;
+  padding: 2.5rem 0.625rem;
+  border-radius: 0.25rem;
+  width: 50%;
+}
+
+.group-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+  margin: .5rem auto;
+  color: wheat;
+}
+
+.submit{
+  width: 35%;
+}
+
+#submit{
+  background-color: var(--bg-color);
+  color: var(--item-color);
+  padding: .5rem;
+  border: white solid .1rem;
+  border-radius: 2rem;
+  margin-top: 1rem;
+}
+
+@media screen and (min-width:480px) and (max-width:1200px) {
+  #main{
+    padding-bottom: 13rem;
+  }
+  #login-form{
+    width: 85%;
+  }
+  .group-form{
+    width: 90%;
+  }
+  .submit{
+    width: 40%;
+  }
+}
+
+@media screen and (max-width:480px) {
+  #main{
+    padding-bottom: 43rem;
+  }
+  #login-form{
+    width: 100%;
+  }
+  .group-form{
+    width: 90%;
+  }
+  .submit{
+    width: 60%;
+  }
 }

@@ -35,6 +35,10 @@ body{
   color: var(--bg-color);
 }
 
+i.bi-person-circle:hover{
+  color: whitesmoke;
+}
+
 .ul-menu li{
   list-style: none;
   padding: 1rem;
@@ -66,6 +70,10 @@ i.bi-diamond-half{
   display: flex;
   align-items: baseline;
   justify-content: space-evenly;
+}
+
+#footer-card li a:hover > .bi{
+  color: whitesmoke;
 }
 
 .footer-item{

@@ -30,30 +30,30 @@
       </nav>
     </header>
     <main id="main">
-      <section>
+      <section id="title-section">
         <nav>
-          <ul>
+          <ul id="title-list">
             <li>
               <i class="bi bi-chevron-double-left"></i>
             </li>
-            <li>CARRINHO</li>
+            <li><h1 id="title">CARRINHO</h1></li>
             <li>
               <i class="bi bi-cart-x"></i>
             </li>
           </ul>
         </nav>
       </section>
-      <section>
-        <div>
+      <section id="products-section">
+        <div id="product">
           <figure>
             <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgPQctPIeRjmHfO-5_pLF4Hg-os3WLsOUSAZIkRz5dJUkcAjbu"
+              src="./assets/product.png"
               alt="imagem exemplo"
             />
           </figure>
           <div>
-            <p>NOME DO PRODUTO</p>
-            <div>
+            <p class="product-name">NOME DO PRODUTO</p>
+            <div class="product-number">
               <i class="bi bi-dash-square"></i>
               <p>1</p>
               <i class="bi bi-plus-square"></i>
@@ -61,19 +61,19 @@
           </div>
           <div>
             <i class="bi bi-trash"></i>
-            <p>R$ 0000,00</p>
+            <p class="product-price">R$ 0000,00</p>
           </div>
         </div>
         <div>
           <figure>
             <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgPQctPIeRjmHfO-5_pLF4Hg-os3WLsOUSAZIkRz5dJUkcAjbu"
+              src="./assets/product.png"
               alt="imagem exemplo"
             />
           </figure>
           <div>
-            <p>NOME DO PRODUTO</p>
-            <div>
+            <p class="product-name">NOME DO PRODUTO</p>
+            <div class="product-number">
               <i class="bi bi-dash-square"></i>
               <p>1</p>
               <i class="bi bi-plus-square"></i>
@@ -81,22 +81,22 @@
           </div>
           <div>
             <i class="bi bi-trash"></i>
-            <p>R$ 0000,00</p>
+            <p class="product-price">R$ 0000,00</p>
           </div>
         </div>
       </section>
-      <section>
-        <input type="text" placeholder="CUPONS" />
-        <button>Aplicar</button>
+      <section id="coupons">
+        <input type="text" placeholder="CUPONS" id="coupons-input"/>
+        <button id="coupons-button">Aplicar</button>
       </section>
-      <section>
+      <section id="total-section">
         <div>
           <p>TOTAL</p>
           <p>DELIVERY</p>
         </div>
       </section>
-      <div>
-        <input type="submit" value="IR PARA PAGAMENTO" />
+      <div id="submit-div">
+        <input type="submit" value="IR PARA PAGAMENTO" id="submit"/>
       </div>
     </main>
     <footer id="footer">

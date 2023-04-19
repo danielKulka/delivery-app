@@ -1,4 +1,97 @@
 #main{
   position: relative;
   margin-top: 100px;
+  padding-bottom: 150px;
+}
+
+#title-section{
+  background-color: var(--bg-color);
+  color: var(--item-color);
+  padding: 4rem;
+}
+
+#title-list{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  font-size: 3rem;
+}
+
+.bi-cart-x{
+  font-size: 1.5rem;
+  color: red;
+}
+
+#products-section{
+  display: flex;
+  justify-content: center;
+}
+
+.product-number{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#coupons{
+  text-align: center;
+  margin: 1rem auto;
+}
+
+#coupons-input{
+  padding-left: 1rem;
+}
+
+#coupons-button{
+  background-color: var(--bg-color);
+  color: var(--item-color);
+  border: var(--item-color) solid 1px;
+  padding: .1rem;
+}
+
+.product-name, .product-price, .bi-trash{
+  display: flex;
+  justify-content: center;
+  margin: .7rem auto;
+}
+
+#total-section{
+  display: flex;
+  justify-content: center;
+}
+
+#submit-div{
+  display: flex;
+  justify-content: center;
+  margin: 2rem auto;
+}
+
+#submit{
+  background-color: var(--bg-color);
+  color: var(--item-color);
+  border: var(--item-color) solid 1px;
+  padding: .1rem
+}
+
+@media screen and (min-width:480px) and (max-width:1200px) {
+  #main{
+    padding-bottom: 15rem;
+  }
+}
+
+@media screen and (max-width:480px) {
+  #main{
+    padding-bottom: 40rem;
+  }
+  #products-section{
+    flex-wrap: wrap;
+  }
+  #coupons-input{
+    width: 80%;
+  }
+  #title-list{
+    font-size: 1.3rem;
+  }
+  .bi-cart-x{
+    font-size: 1rem;
+  }
 }

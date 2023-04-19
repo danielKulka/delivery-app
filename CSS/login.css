@@ -19,3 +19,59 @@
 .cube-logo{
   font-size: 4rem;
 }
+
+#login-form{
+  display: block;
+  margin: 50px auto;
+  background: var(--item-color);
+  opacity: 0.8;
+  padding: 2.5rem 0.625rem;
+  border-radius: 0.25rem;
+  width: 30%;
+}
+
+.form-group{
+  display: flex;
+  justify-content: center;
+  margin: .5rem auto;
+}
+
+label{
+  color: whitesmoke;
+  margin-right: 1rem;
+}
+
+#login{
+  margin-left: .2rem;
+}
+
+.input-form{
+  width: 40%;
+}
+
+#submit{
+  background-color: var(--bg-color);
+  color: var(--item-color);
+  padding: .5rem;
+  border: white solid .1rem;
+  border-radius: 2rem;
+  margin-top: 1rem;
+}
+
+@media screen and (min-width:480px) and (max-width:1200px) {
+  #main{
+    padding-bottom: 15rem;
+  }
+  #login-form{
+    width: 50%;
+  }
+}
+
+@media screen and (max-width:480px) {
+  #main{
+    padding-bottom: 45rem;
+  }
+  #login-form{
+    width: 100%;
+  }
+}
