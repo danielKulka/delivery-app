@@ -1,6 +1,7 @@
 #main{
   position: relative;
   margin-top: 100px;
+  padding-bottom: 1rem;
 }
 
 #branch{
@@ -69,7 +70,7 @@ label{
 
 @media screen and (max-width:480px) {
   #main{
-    padding-bottom: 45rem;
+    padding-bottom: 50rem;
   }
   #login-form{
     width: 100%;
