@@ -27,9 +27,32 @@
   justify-content: center;
 }
 
+.product{
+  background-color: var(--bg-color);
+  margin: 1rem;
+}
+
+.product-fig{
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+.product-img{
+  width: 80%;
+}
+
 .product-number{
   display: flex;
   justify-content: space-evenly;
+}
+
+.bi-trash{
+  color: red;
+}
+
+i.bi-trash:hover::before{
+  cursor: pointer;
 }
 
 #coupons{
