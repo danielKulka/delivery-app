@@ -22,6 +22,10 @@
   color: red;
 }
 
+.bi-cart-x::before{
+  cursor: pointer;
+}
+
 #products-section{
   display: flex;
   justify-content: center;
@@ -51,7 +55,7 @@
   color: red;
 }
 
-i.bi-trash:hover::before{
+i.bi-trash::before, i.bi-dash-square::before, i.bi-plus-square::before{
   cursor: pointer;
 }
 

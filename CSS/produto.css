@@ -17,6 +17,16 @@
   font-size: 3rem;
 }
 
+i.bi-heart-fill{
+  font-size: 3.5rem;
+  cursor: pointer;
+  color: var(--item-color);
+}
+
+i.red{
+  color: red;
+}
+
 #product-description{
   font-size: 2rem;
   padding: 3rem;

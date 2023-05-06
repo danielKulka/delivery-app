@@ -76,3 +76,19 @@ label{
     width: 100%;
   }
 }
+
+/*inseção do HTML*/
+.login-ok{
+  display: flex;
+  justify-content: center;
+  margin: 1rem auto 0;
+  position: relative;
+  width: 50%;
+  color: wheat;
+}
+
+@media  screen and (max-width=1200px) {
+    .login-ok{
+      width: 100%;
+    }
+}
