@@ -44,6 +44,10 @@ i.red{
   justify-content: space-evenly;
 }
 
+#product-number .bi-dash-square, #product-number .bi-plus-square{
+  cursor: pointer;
+}
+
 #number{
   margin: 0 2rem;
 }
