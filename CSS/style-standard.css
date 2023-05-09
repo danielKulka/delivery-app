@@ -19,6 +19,9 @@ body{
 .header{
   width: 100%;
   background-image: url("../assets/bg-food.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
   position: fixed;
   top: 0;
   z-index: 3;
@@ -46,18 +49,29 @@ i.bi-person-circle:hover{
 }
 
 .ul-menu li .li-location{
-  font-size: 1rem;
-  padding-left: 0.3rem;
-}
-
-i.bi-diamond-half{
-  color: #FACB50;
+  font-size: 2rem;
+  padding: 0 0.5rem;
+  text-shadow: #373985 2px 3px 2px;
 }
 
 #location{
   display: flex;
   align-items: center;
 }
+
+#location #cep{
+  width: 7rem;
+  border: #69DBCF solid 2px;
+}
+
+#location #cep-button{
+  border: #69DBCF solid 2px;
+  color: #373985;
+  font-size: 1rem;
+  background-color: bisque;
+  cursor: pointer;
+}
+
 /* Estilizando o rodapé */
 #footer{
   background-color: var(--bg-color);
@@ -111,8 +125,21 @@ i.bi-diamond-half{
   }
   .header{
     display: flex;
+    height: 100px;
   }
-  
+  .ul-menu i.bi-diamond-half{
+    display: none;
+  }
+  .ul-menu li .li-location{
+    font-size: 1.5rem;
+    padding: 0 0.5rem;
+  }
+  .ul-menu li i.bi{
+    font-size: 2rem;
+  }
+  .ul-menu li{
+    padding: 0.2rem;
+  }
   ul#footer-card{
     flex-wrap: wrap;
     margin: auto;

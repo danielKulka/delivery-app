@@ -50,6 +50,16 @@
   border: white solid .1rem;
   border-radius: 2rem;
   margin-top: 1rem;
+  cursor: pointer;
+}
+
+.login-ok{
+  display: flex;
+  justify-content: center;
+  margin: 1rem auto 0;
+  position: relative;
+  width: 50%;
+  color: wheat;
 }
 
 @media screen and (min-width:480px) and (max-width:1200px) {

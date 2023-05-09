@@ -21,7 +21,9 @@
           </li>
           <li id="location">
             <i class="bi bi-geo-alt"></i>
-            <p class="li-location">Curitiba,PR</p>
+            <input id="cep" type="text" placeholder="Digite seu CEP">
+            <p class="li-location"></p>
+            <button onclick="consultaCep()" id="cep-button">OK</button>
           </li>
           <li>
             <i class="bi bi-diamond-half"></i>
@@ -62,12 +64,13 @@
         </div>
         <div id="admin" >
           <label for="admin">ADMIN:</label>
-          <input type="radio" name="admin" class="admin-bt"/>SIM
-          <input type="radio" name="admin" class="admin-bt"/>NÃO
+          <input type="radio" name="admin" class="admin-bt" id="yes-admin"/>SIM
+          <input type="radio" name="admin" class="admin-bt" id="not-admin"/>NÃO
         </div>
         <div class="group-form submit">
-          <input type="submit" value="CADASTRAR USUÁRIO" id="submit"/>
+          <input type="button" value="CADASTRAR USUÁRIO" id="submit"/>
         </div>
+        <section id="mensage-ok" class="mensage-ok"></section>
       </form>
     </main>
     <footer id="footer">
@@ -105,5 +108,7 @@
       </ul>
       <p id="fake-text">**This is just a fake project for practing purposes.</p>
     </footer>
+    <script src="./js/usuarioScript.js"></script>
+    <script src="./js/standardScript.js"></script>
   </body>
 </html>

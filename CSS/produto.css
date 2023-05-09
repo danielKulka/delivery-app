@@ -81,6 +81,9 @@ i.red{
   #title-section{
     padding: 1rem;
   }
+  i.bi-heart-fill{
+    font-size: 1.5rem;
+  }
   #title-list{
     font-size: 1.2rem;
   }
